@@ -60,8 +60,8 @@ h1{
 }
 
 #bgBox{
-    height: 250px;
-    width: 450px;
+    height: 350px;
+    width: 500px;
     border: 3px solid black;
     border-radius: 15px;
     background-image: linear-gradient(to right,rgb(208, 228, 248),rgb(9,176,247));
