@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.navBar{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+h2{
+   color: white;
+   font-size: 30px;
+   font-weight: 700;
+}
+
+.socialLinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: 3px solid blue;
+}
+
+img{
+    width: 35px;
+    height: 35px;
+}
+
+.mainContainer{
+    background-color: rgb(252, 248, 248);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h1{
+    font-size: 35px;
+}
+
+#bgBox{
+    height: 250px;
+    width: 450px;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-image: linear-gradient(to right,rgb(208, 228, 248),rgb(9,176,247));
+}
+
+.colorButtons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.colorButtons button{
+    border: 3px solid black;
+    padding: 8px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+}
+
+#btn1{
+    background-color: #d0e4f8;
+}
+
+#btn2{
+    background-color: #09b0f7;
+}
+
+.copyCode{
+    background-color: rgb(226, 222, 222);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    border: 3px solid black;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.copyCode button{
+    border: 3px solid blue;
+    padding: 8px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+p{
+    color: black;
+    font-size: 18px;
+}
+
+.footer{
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+@media only screen and (max-width: 400px) {
+    .navBar{
+        flex-direction: column;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .socialLinks{
+        display: none;
+    }
+
+    
+   h2{
+      font-size: 20px;
+   }
+
+   h1{
+    font-size: 25px;
+    text-align: center;
+   }
+
+   #bgBox{
+    width: 280px;
+    height: 250px;
+   }
+
+   .colorButtons{
+    gap: 10px;
+   }
+
+   .colorButtons button{
+       padding: 4px 15px;
+       font-size: 18px;
+   }
+
+   .copyCode button{
+     padding: 5px;
+   }
+
+   p{
+    font-size: 16px;
+   }
+}
